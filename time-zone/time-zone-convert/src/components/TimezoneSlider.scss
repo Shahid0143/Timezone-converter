@@ -1,0 +1,101 @@
+.timezone-slider {
+  margin: 20px;
+
+  @media (max-width: 1200px) {
+    margin: 15px;
+  }
+
+  @media (max-width: 768px) {
+    margin: 10px;
+  }
+
+  @media (max-width: 480px) {
+    margin: 5px;
+  }
+}
+
+.timezone-box {
+  margin-bottom: 20px;
+  border: 1px solid rgb(194, 190, 190);
+  border-radius: 5px;
+  background-color: rgb(165, 210, 228);
+  padding: 10px;
+  position: relative;
+  width: 70%;
+
+  @media (max-width: 1200px) {
+    width: 80%;
+  }
+
+  @media (max-width: 768px) {
+    width: 90%;
+  }
+
+  @media (max-width: 480px) {
+    width: 100%;
+  }
+
+  h3 {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(200, 224, 224);
+    border-radius: 5px;
+    background-color: rgb(136, 183, 183);
+
+    @media (max-width: 1200px) {
+      padding: 8px;
+    }
+
+    @media (max-width: 768px) {
+      padding: 6px;
+    }
+
+    @media (max-width: 480px) {
+      padding: 4px;
+    }
+  }
+
+  p {
+    margin-top: 25px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+    @media (max-width: 1200px) {
+      font-size: 18px;
+    }
+
+    @media (max-width: 768px) {
+      font-size: 16px;
+    }
+
+    @media (max-width: 480px) {
+      font-size: 14px;
+    }
+  }
+}
+
+.remove-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: red;
+
+  @media (max-width: 1200px) {
+    top: 8px;
+    right: 8px;
+  }
+
+  @media (max-width: 768px) {
+    top: 6px;
+    right: 6px;
+  }
+
+  @media (max-width: 480px) {
+    top: 4px;
+    right: 4px;
+  }
+}
